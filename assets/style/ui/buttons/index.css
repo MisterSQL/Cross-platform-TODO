@@ -1,0 +1,59 @@
+.button {
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.container__display-popup {
+    border: 1px solid white;
+    color: var(--primary-color);
+    border-radius: 2px;
+    height: 36px;
+    min-width: 106px;
+    transition: .4s;
+
+}
+.container__display-popup:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.popup__close {
+    position: absolute;
+    right: 16px;
+    top: 22px;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    border-radius: 8px;
+    border: none;
+}
+
+.popup__create-task {
+    position: absolute;
+    right: 16px;
+    bottom: 18px;
+    width: 106px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--color-success);
+    color:var(--primary-color);
+    border:1px solid var(--color-success);
+    border-radius: 2px;
+}
+.popup__create-task:hover{
+    background-color: #026463;
+}
+
+.task__edit {
+    width: 88px;
+    height: 88px;
+    margin-left:auto;
+    background-color: var(--color-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: var(--color-warning);
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+}

@@ -1,2 +1,12 @@
-@import url("base.css");
-@import url("container.css");
+.header {
+    background-color: var(--secondary-color);
+    width: 100%;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-block: 16px;
+}

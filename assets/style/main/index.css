@@ -1,2 +1,48 @@
-@import url("base.css");
-@import url("task.css");
+.main {
+    margin-top: 53px;
+}
+.main__task-list {
+    display: grid;
+    --cards : 3;
+    grid-template-columns: repeat(var(--cards),minmax(300px,600px));
+    margin-top: 53px;
+    gap: 50px;
+}
+.task {
+    height: 88px;
+    border-radius: 16px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.title-empty {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.displayTitle {
+    display: none;
+}
+.task__name {
+    font-size: 20px;
+    margin-right: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 1184px) {
+    .main__task-list{
+        --cards: 2;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .main__task-list{
+        --cards: 1;
+    }
+}

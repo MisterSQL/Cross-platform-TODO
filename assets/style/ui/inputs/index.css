@@ -1,0 +1,32 @@
+.inputs {
+    border-radius: 4px;
+    padding: 12px;
+    background-color: var(--primary-color);
+    border-color: var(--color-lighter);
+}
+.popup_input {
+    position: absolute;
+    width: 90%;
+    height: 46px;
+    top: 120px;
+    left: 24px;
+}
+
+.task-label {
+    position: absolute;
+    top: 97px;
+    left: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--secondary-color);
+
+}
+
+.inputs::placeholder {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--primary-font);
+    opacity: 0.5;
+}
+

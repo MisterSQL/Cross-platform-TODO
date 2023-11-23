@@ -1,6 +1,10 @@
-:root{
-    --color-white: #FFFFFFFF;
-    --color-black: #000000FF;
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #000000;
     --color-warning: #F4C959;
     --color-light: #F1F1F1;
+    --color-lighter: #D2D2D2;
+    --color-success: #008180;
+    --primary-font: Manrope,sans-serif;
 }
+
