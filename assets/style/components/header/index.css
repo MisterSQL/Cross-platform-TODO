@@ -1,9 +1,9 @@
 .header {
-    background-color: var(--secondary-color);
+    background-color: var(--black-color);
     width: 100%;
 }
 
-.header__container{
+.header__container {
     display: flex;
     align-items: center;
     margin: 0 auto;

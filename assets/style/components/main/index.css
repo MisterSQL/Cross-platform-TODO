@@ -14,7 +14,7 @@
     padding-left: 16px;
     display: flex;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: var(--white-color);
 }
 
 .title-empty {
@@ -22,9 +22,7 @@
     font-weight: 500;
     text-align: center;
 }
-.displayTitle {
-    display: none;
-}
+
 .task__name {
     font-size: 20px;
     margin-right: 8px;
@@ -32,7 +30,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     font-weight: 500;
-    color: var(--secondary-color);
+    color: var(--black-color);
 }
 
 @media screen and (max-width: 1184px) {

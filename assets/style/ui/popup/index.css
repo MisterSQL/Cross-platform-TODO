@@ -2,33 +2,31 @@
     position: fixed;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.70);
     backdrop-filter: blur(10px);
-    display: none;
 }
-.popup__body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 30px 10px;
-}
-
 .popup__content {
     position: relative;
-    background-color: var(--primary-color);
+    background-color: var(--white-color);
     width: min(50%,502px);
     height: 243px;
     border-radius: 16px;
 }
 
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+}
 .popup__title {
     position: absolute;
     left: 24px;
     top: 38px;
     font-weight: 500;
     font-size: 20px;
-    color: var(--color-success);
+    color: var(--green-color);
 }
