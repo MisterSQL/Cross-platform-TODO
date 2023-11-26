@@ -1,8 +1,8 @@
 .inputs {
     border-radius: 4px;
     padding: 12px;
-    background-color: var(--primary-color);
-    border-color: var(--color-lighter);
+    background-color: var(--white-color);
+    border-color: var(--lighter-white-color);
 }
 .popup_input {
     position: absolute;
@@ -18,12 +18,15 @@
     left: 24px;
     font-size: 14px;
     font-weight: 500;
-    color: var(--secondary-color);
+    color: var(--black-color);
+}
 
+.inputs.error {
+    border-color: var(--red-color);
 }
 
 .inputs::placeholder {
-    color: var(--secondary-color);
+    color: var(--black-color);
     font-size: 16px;
     font-weight: 300;
     font-family: var(--primary-font);

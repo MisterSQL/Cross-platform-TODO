@@ -4,8 +4,13 @@
     margin-inline: 0;
     font-family: var(--primary-font);
 }
+
 body {
-    background-color: var(--color-light);
+    background-color: var(--light-white-color);
+}
+
+div,p,h1,h2,h3,input,button{
+    font-family: inherit;
 }
 .container {
     max-width: 1435px;
@@ -13,8 +18,6 @@ body {
     padding-inline: var(--container-padding);
     margin-inline: auto;
 }
-
-
 @media screen and (max-width: 1435px) {
     .container {
         --container-padding: 128px;

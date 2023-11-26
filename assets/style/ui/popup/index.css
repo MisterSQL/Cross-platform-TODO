@@ -22,11 +22,27 @@
     visibility: hidden;
     opacity: 0;
 }
+
 .popup__title {
     position: absolute;
     left: 24px;
     top: 38px;
     font-weight: 500;
     font-size: 20px;
+
+}
+
+.title-edit {
+    color: var(--yellow-color);
+}
+
+.title-add {
     color: var(--green-color);
+}
+
+.notification-error {
+    color: red;
+    position: absolute;
+    bottom: 54px;
+    left: 26px;
 }

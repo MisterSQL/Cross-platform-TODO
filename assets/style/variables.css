@@ -1,10 +1,13 @@
 :root {
-    --primary-color: #FFFFFF;
-    --secondary-color: #000000;
-    --color-warning: #F4C959;
-    --color-light: #F1F1F1;
-    --color-lighter: #D2D2D2;
-    --color-success: #008180;
+    --white-color: #FFFFFF;
+    --light-white-color: #F1F1F1;
+    --lighter-white-color: #D2D2D2;
+    --black-color: #000000;
+    --yellow-color: #F4C959;
+    --red-color: #ff1616;
+    --red-dark-color: #b00000;
+    --green-color: #008180;
+    --green-dark-color: #026463;
     --primary-font: Manrope,sans-serif;
 }
 
